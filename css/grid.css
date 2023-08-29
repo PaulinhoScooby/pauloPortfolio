@@ -1,0 +1,147 @@
+#grid-container{
+    width: 90%;
+    height: 90%;
+    margin-top: 1px;
+    padding: 8px;}
+            
+.grid{
+         
+             display:grid;
+             grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+             grid-gap: 20px;
+             max-width: 1200px;
+             margin: 0 auto;}
+             
+.meus-projetos{
+    margin-left: 5%;
+    cursor: pointer;
+}       
+         
+.grid div{
+    margin: 0% auto;
+             font-family: arial;
+             text-align: center;
+             font-size: 1.rem;
+            
+             padding-bottom: 8px;
+             box-shadow: 0.2px 0.2px #000;}
+
+input{
+             font-family: sans-serif;
+             font-size: 7rem;
+             padding: 5px;
+  }
+         .dados-formulario{
+             width: 50%;
+
+         }
+nav{
+             text-align: right;
+             margin-top: 10px;
+             font-weight: bold;
+             font-family: candara, arial;
+             font-size: 1.6rem;
+             margin-right: 2%;
+             word-spacing: 20px;
+         }
+a{
+             text-decoration: none;
+             color:#00e0ff;
+             transition: all 280ms ease-in-out;
+
+         }
+a:hover{
+             color:#fff;
+         }
+
+.projeto-1{
+    animation-fill-mode:initial;
+    width: 14rem;
+   height: 8em;
+   border-radius: 20%;
+   transition: 30ms ease-in-out;
+   
+
+}
+.projeto-2{
+    animation-fill-mode:initial;
+    width: 14rem;
+   height: 12em;
+   border-radius: 20%;
+   transition: 30ms ease-in-out;
+}
+.projeto-3{
+    animation-fill-mode:initial;
+    width: 14rem;
+   height: 12em;
+   border-radius: 20%;
+   transition: 30ms ease-in-out;
+}
+.projeto-4{
+    animation-fill-mode:initial;
+    width: 14rem;
+   height: 12em;
+   border-radius: 20%;
+   transition: 30ms ease-in-out;
+}
+.projeto-5{
+    animation-fill-mode:initial;
+    margin-top: 1rem;
+    width: 14rem;
+   height: 12em;
+   border-radius: 20%;
+   transition: 30ms ease-in-out;
+}
+.projeto-6{
+    animation-fill-mode:initial;
+    margin-top: 1rem;
+    width: 14rem;
+   height: 12em;
+   border-radius: 20%;
+   transition: 30ms ease-in-out;
+}
+.imagem-grid{
+             width: 12rem;
+             height: 8rem;
+             border-radius: 10%;
+         transition: 30ms ease-in-out;
+         }
+.CV{
+    margin-left: 5%;
+    margin: 6%;
+    color: #fff;
+    width: 170px;
+    cursor: pointer;
+    display: flex;
+
+   
+}
+.contatos{
+    text-align: center;
+
+}
+.contatos a{
+    margin-left: 49%;
+    margin-top:13%;
+    display:flex;
+}
+.whats{
+    border-radius:50%;
+    width: 2rem;
+    height: 2em;
+    background-color: rgb(9, 25, 39);
+    margin-left:20%;
+    margin-top: -30%;
+    cursor: pointer;
+}
+
+.whats .whatsap{
+    text-align:right;
+    width: 3rem;
+   height: 3em;
+   margin-left:-30%;
+   margin-top: -40%;
+   transition: 30ms ease-in-out;
+   cursor: pointer;
+}
+ 
